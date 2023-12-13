@@ -1,0 +1,21 @@
+{
+  "name": "slay-votes",
+  "version": "1.0.0",
+  "description": "Скрипт для накрутки голосов премии SLAY",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node ./src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "selenium-webdriver": "^4.16.0"
+  },
+  "devDependencies": {
+    "@types/selenium-webdriver": "^4.1.21",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
